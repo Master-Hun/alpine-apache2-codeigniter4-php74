@@ -4,10 +4,10 @@ codeigniter4 installed on apline server
 not use composer, install manually
 
 # Setting Stack
-- Apline:edge
+- Alpine:edge
 - Apache24
 - PHP7.4.23
-- Codeigniter 4
+- Codeigniter 4 Framework
 
 # Usage
 1. git clone proeject
@@ -47,6 +47,16 @@ short_open_tag = Off -> On
 
 // line 166
 # LoadModule rewrite_module modules/mod_rewrite.so -> remove "#" 
+
+// line 229
+AllowOverride None -> All
+
+// line 245
+"/var/www/localhost/htdocs" -> "/var/www/localhost/htdocs/public"
+
+//line 246
+"/var/www/localhost/htdocs" -> "/var/www/localhost/htdocs/public"
+
 ```
 
 
