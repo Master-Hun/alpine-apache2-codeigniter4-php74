@@ -11,10 +11,6 @@ not use composer, install manually
 
 # Usage
 1. git clone proeject
-```
-git clone https://github.com/Master-Hun/alpine-apache2-codeigniter4-php74.git
-```
-
 2. build docker image
 ```
 docker build --tag alpine_ci4:dev .
